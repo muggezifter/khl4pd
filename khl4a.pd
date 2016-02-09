@@ -1,4 +1,4 @@
-#N canvas 12 80 987 488 10;
+#N canvas 1 363 987 488 10;
 #X obj 294 2 netreceive 13000;
 #X obj 155 40 print tcp;
 #X floatatom -80 157 5 0 0 0 - - -, f 5;
@@ -57,12 +57,12 @@
 #X obj 617 156 loadbang;
 #X obj 278 460 dac~ 1 2 3 4 5 6;
 #X obj 281 32 route 64 67 62 69 66 71;
-#X msg -186 196 open C.aiff \, 1;
-#X msg -24 195 open D.aiff \, 1;
-#X msg 138 195 open E.aiff \, 1;
-#X msg 299 194 open Fis.aiff \, 1;
-#X msg 457 195 open Gis.aiff \, 1;
-#X msg 617 195 open Ais.aiff \, 1;
+#X msg -186 196 open E.aiff \, 1;
+#X msg -24 195 open G.aiff \, 1;
+#X msg 138 195 open D.aiff \, 1;
+#X msg 299 194 open A.aiff \, 1;
+#X msg 457 195 open Fis.aiff \, 1;
+#X msg 617 195 open B.aiff \, 1;
 #X connect 0 0 1 0;
 #X connect 0 0 51 0;
 #X connect 2 0 5 0;
